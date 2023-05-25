@@ -1,0 +1,127 @@
+#top {
+    margin: 0 22px 22px 22px;
+    border-style: border-box;
+    border: 3px solid #444849;
+    height: 704px;
+}
+
+#info {
+    margin: 0;
+    padding: 28px 22px 0 22px;
+    border-style: none;
+}
+
+#internet {
+    border-style: none;
+    position: relative;
+}
+
+#header1, #header2 {
+    height: 56px;
+    line-height: 56px;
+    border-style: none;
+    border: 2px solid #252628;
+    background-color: #333625;
+    padding: 0 0 0 34px;
+    overflow: hidden;
+    font-weight: bold;
+}
+
+#header1 span {
+    float: left;
+    background-color: #333625;
+}
+
+#checkbox {
+    float: left;
+    padding: 14px 0 0 48px;
+    border-style: none;
+    background-color: #333625;
+}
+
+#item1, #item2 {
+    width: 360px;
+    float: left;
+}
+
+#item1_val, #item2_val {
+    margin-left: 360px;
+}
+
+#item1_val :nth-child(7) span{
+    background-color: #293032;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    border-style: none;
+    border: 2px solid #252628;
+    height: 48px;
+    line-height: 48px;
+    padding-left: 26px;
+}
+
+#connection_state {
+    margin-left: 400px;
+    color: #837978;
+    border: 1px solid #566164;
+}
+
+
+.item_text {
+    background-color: #313538;
+    border: 2px solid #252628;
+}
+
+.item_val {
+    background-color: #293032;
+    border: 2px solid #252628;
+}
+
+#ip_view {
+    margin-left: 300px;
+    color: #837978;
+    border: 1px solid #566164;
+    background-color: #293032;
+}
+
+#ddns_update {
+    /* margin-left: 650px; */
+    color: #837978;
+    border: 1px solid #566164;
+    background-color: #293032;
+}
+
+#header3  {
+    height: 56px;
+    line-height: 56px;
+    border: 2px solid #252628;
+    background-color: #333625;
+    padding: 0 0 0 34px;
+    font-weight: bold;   
+    float: left;
+    width: 100%;
+    border-style: none;
+    /* overflow: hidden; */
+}
+
+#header3 :nth-child(1) {
+    width: 430px;
+    background-color: #333625;
+    /* padding-left: 34px; */
+    /* height: 54px; */
+}
+
+#header3 :nth-child(2) {
+    /* float: left; */
+    font-weight:normal;
+    /* height: 54px; */
+    /* margin-left: 500px; */
+    padding-left: 250px;
+    background-color: #333625;
+}

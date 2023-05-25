@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/internet_connect_info.css">
+</head>
+<body>
+    <p id="info">* 이 페이지는 10초마다 갱신 됩니다.</p>
+    <div id="top">
+        <div id="internet">
+            <div id="header1">
+                <span>인터넷 연결 상태</span><img src="images/icn_on.png" alt="No Image" id="checkbox">
+            </div>
+            <div id="item1">
+                <ul>
+                    <li class="item_text">연결 모드</li>
+                    <li class="item_text">연결 상태</li>
+                    <li class="item_text">IP주소</li>
+                    <li class="item_text">서브넷 마스크</li>
+                    <li class="item_text">게이트웨이</li>
+                    <li class="item_text">DNS 서버</li>
+                    <li class="item_text">DDNS 상태</li>
+                    <li class="item_text">하드웨어 주소</li>
+                </ul>
+            </div>
+            <div id="item1_val">
+                <ul>
+                    <li class="item_val">고정 IP 사용</li>
+                    <li class="item_val">연결됨<span id="connection_state">사용 불가</span></li> 
+                    <li class="item_val">192.168.10.142</li>
+                    <li class="item_val">255.255.255.0</li>
+                    <li class="item_val">192.168.10.1</li>
+                    <li class="item_val">192.168.10.1 168.126.63.2</li>
+                    <li class="item_val">
+                        사용하지 않음
+                        <span>
+                            <span id="ip_view">IP 보기</span>
+                            <span id="ddns_update">DDNS 갱신</span>
+                        </span>
+                    </li>
+                    <li class="item_val">54:B6:20:00:45:61</li>
+                </ul>
+            </div>
+        </div>
+        <div id="intranet">
+            <div id="header2">내부 네트워크
+            </div>
+            <div id="item2">
+                <ul>
+                    <li class="item_text">IP 주소</li>
+                    <li class="item_text">서브넷 마스크</li>
+                    <li class="item_text">하드웨어 주소</li>
+                </ul>
+            </div>
+            <div id="item2_val">
+                <ul>
+                    <li class="item_val">192.168.1.1</li>
+                    <li class="item_val">255.255.255.0</li>
+                    <li class="item_val">00:00:00:00:00:00</li>
+                </ul>
+            </div>            
+        </div>
+        <div id="header3">
+            <span>소프트웨어 버전</span>
+            <span >NDU 2.00 Build at 2010/07/23-09:07</span>
+        </div>
+    </div>
+</body>
+</html>
