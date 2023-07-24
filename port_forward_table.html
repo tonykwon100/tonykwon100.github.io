@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!-- saved from url=(0055)https://t1.daumcdn.net/cfile/tistory/99D157475C37F9360E -->
+<html lang="ko"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<title>html 테이블(Table) 헤더 고정 본문(tbody) 스크롤</title>
+    <!-- <link rel="stylesheet" href="css/global.css"> -->
+    <link rel="stylesheet" href="css/port_forward_table.css">
+</head>
+<body style="padding:10px 50px">
+    <div class="fixed-table-container"  style="width:700px;height:250px;">
+        <div class="fixed-table-header-bg">
+        </div>
+        <div class="fixed-table-wrapper">
+            <table id="tbl_port_forward" class="fixed-table">
+                <thead>
+                    <tr>
+                        <th style="width:5%"><div class="th-text"></div></th>
+                        <th style="width:10%"><div class="th-text">No.</div></th>
+                        <th style="width:15%"><div class="th-text">ON/OFF</div></th>
+                        <th style="width:25%"><div class="th-text">서비스포트</div></th>
+                        <th style="width:15%"><div class="th-text">프로토콜</div></th>
+                        <th style="width:15%"><div class="th-text">내부 IP주소</div></th>
+                        <th style="width:15%"><div class="th-text">내부포트</div></th>
+                    </tr>
+                </thead>
+                <tbody id="htmlTbody">
+                   <tr>
+	                   	<td><input type="checkbox" name="emp_code"></td>
+	                   	<td>1</td>	
+	                   	<td>ON</td>
+	                   	<td>65530~65530</td>
+	                   	<td>TCP</td>
+	                   	<td>192.168.1.30</td>
+                        <td>45852</td>
+                   </tr>                                                                                 
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="js/port_forward_table.js">alert('in html1');</script>
+ </body></html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/remote_control.css">
+</head>
+<body>
+  <div id="header">
+  </div>
+  <hr>
+  <div id="content">
+      <div class="container">
+        <span class="header">원격제어 사용여부</span>
+        <label><input type="radio" name="dhcp-use" value="no">사용하지 않음</label>
+        <label><input type="radio" name="dhcp-use" value="yes">사용</label>  
+        <input type="text" id="port" value="8888">
+      </div>
+  </div>
+  <div id="bottom">
+    <div>
+      <button type="button" id="apply">적용</button>
+      <button type="button" id="cancel">취소</button>
+    </div>
+  </div>
+  <hr>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    li:before {
+    content: '';
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    left: -24px;
+    top: 5px;
+    z-index: -1;
+    }
+    li.red:before {
+      background-color: red;
+    }
+    li.blue:before {
+      background-color: blue;
+    }
+    li.aqua:before {
+      background-color: aqua;
+    }
+    li.yellow:before {
+      background-color: yellow;
+    }
+
+    li.red {
+      background-color: blue;
+    }
+  </style>
+</head>
+<body>
+  <ol>
+    <li class="red">First item</li>
+    <li class="blue">Second item</li>
+    <li class="aqua">Third item</li>
+    <li class="yellow">One more</li>
+  </ol>
+</body>
+</html>

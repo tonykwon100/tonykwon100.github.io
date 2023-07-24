@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/system_setup.css">
+</head>
+<body>
+  <div class="wrap">
+ 
+    <div class="header">
+    </div><!-- .header -->
+    
+    <hr>
+    <div class="sidebar">
+      <ul>
+        <li>설정값 저장</li>
+        <li>설정값 복원</li>
+        <li>시스템 재시작</li>
+        <li>시스템 초기화</li>
+      </ul>
+    </div><!-- .sidebar -->
+     
+    <div class="content">
+      <p><button type="button" id="save-setup">저장하기</button></p>
+      <p><button type="button" id="save-file">파일저장</button>
+      <input type="text" id="file-input-item" value="선택된 파일 없음">
+      <button type="button" id="load">불러오기</button></p>
+      <p><button type="button" id="restart">재시작</button></p>
+      <p><button type="button" id="init">초기화</button></p>
+    </div><!-- .content -->
+    
+    <div class="clear"></div>
+       
+    <div class="footer">
+    </div><!-- .footer -->
+  </div><!-- .wrap -->
+
+  <script src="js/system_setup.js">alert('in html1');</script>
+
+</body>
+</html>

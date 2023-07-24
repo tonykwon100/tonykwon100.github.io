@@ -1,14 +1,20 @@
+/* #body {
+    width: 864px;
+} */
+
 #top {
-    margin: 0 22px 22px 22px;
+    margin: 0 20px 20px 20px;
     border-style: border-box;
     border: 3px solid #444849;
-    height: 704px;
+    width: 824px;
+    height: 615px;
 }
 
 #info {
+    width: 824px;
     margin: 0;
-    padding: 28px 22px 0 22px;
-    border-style: none;
+    padding: 20px 20px 0 20px;
+    border-style: border-box;
 }
 
 #internet {
@@ -40,12 +46,12 @@
 }
 
 #item1, #item2 {
-    width: 360px;
+    width: 200px;
     float: left;
 }
 
 #item1_val, #item2_val {
-    margin-left: 360px;
+    margin-left: 200px;
 }
 
 #item1_val :nth-child(7) span{
@@ -61,13 +67,13 @@ li {
     list-style: none;
     border-style: none;
     border: 2px solid #252628;
-    height: 48px;
-    line-height: 48px;
+    height: 40px;
+    line-height: 40px;
     padding-left: 26px;
 }
 
 #connection_state {
-    margin-left: 400px;
+    margin-left: 500px;
     color: #837978;
     border: 1px solid #566164;
 }
@@ -84,7 +90,7 @@ li {
 }
 
 #ip_view {
-    margin-left: 300px;
+    /* margin-left: 200px; */
     color: #837978;
     border: 1px solid #566164;
     background-color: #293032;
@@ -122,6 +128,6 @@ li {
     font-weight:normal;
     /* height: 54px; */
     /* margin-left: 500px; */
-    padding-left: 250px;
+    padding-left: 50px;
     background-color: #333625;
 }

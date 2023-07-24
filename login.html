@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/login.css">  
+  <script defer src="js/login.js"></script>
+</head>
+<body>
+  <container>
+    <h1>로그인</h1>
+    
+    <div id="login-error-msg-holder">
+      <p id="login-error-msg">Invalid password</p>
+    </div>
+
+    <form id="login-form"> 
+    <!-- <form id="login-form" method="post" action=""> for post with php -->
+      <!-- <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username"> -->
+      <input type="text" class="login-form-field" placeholder="admin" disabled>
+      <input type="password" name="password" id="password-field" class="login-form-field" placeholder="password">
+      <input type="submit" value="로그인" id="login-form-submit">
+    </form>    
+
+  </container>
+</body>
+</html>

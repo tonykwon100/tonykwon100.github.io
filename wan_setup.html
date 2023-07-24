@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/wan_setup.css">
+</head>
+<body>
+  <div id="header">
+    <label><input type="radio" name="ip_type" value="dynamic">동적 IP</label>
+    <label><input type="radio" name="ip_type" value="static">고정 IP</label>
+  </div>
+  <hr>
+  <div id="content">
+    <div>
+      <h3>인터넷 연결 방법: <span id="ip_type_value">고정 IP</span></h3>
+      <div class="ip-input-container"><span class="ip-input-header">외부 IP주소</span>
+        <input type="text" class="ip-input-item" value="">
+        <i class="ip-input-dot">.</i>
+        <input type="text" class="ip-input-item" value="">
+        <i class="ip-input-dot">.</i>
+        <input type="text" class="ip-input-item" value="">
+        <i class="ip-input-dot">.</i>
+        <input type="text" class="ip-input-item" value="">
+      </div>    
+      <div class="ip-input-container"><span class="ip-input-header">서브넷 마스크</span>
+        <input type="text" class="ip-input-item" value="">
+        <i class="ip-input-dot">.</i>
+        <input type="text" class="ip-input-item" value="">
+        <i class="ip-input-dot">.</i>
+        <input type="text" class="ip-input-item" value="">
+        <i class="ip-input-dot">.</i>
+        <input type="text" class="ip-input-item" value="">
+      </div>    
+      <div class="ip-input-container"><span class="ip-input-header">게이트웨이</span>
+        <input type="text" class="ip-input-item" value="">
+        <i class="ip-input-dot">.</i>
+        <input type="text" class="ip-input-item" value="">
+        <i class="ip-input-dot">.</i>
+        <input type="text" class="ip-input-item" value="">
+        <i class="ip-input-dot">.</i>
+        <input type="text" class="ip-input-item" value="">
+      </div>    
+      <div class="ip-input-container"><span class="ip-input-header">DNS 서버</span>
+        <input type="text" class="ip-input-item" value="">
+        <i class="ip-input-dot">.</i>
+        <input type="text" class="ip-input-item" value="">
+        <i class="ip-input-dot">.</i>
+        <input type="text" class="ip-input-item" value="">
+        <i class="ip-input-dot">.</i>
+        <input type="text" class="ip-input-item" value="">
+      </div>    
+      <div class="ip-input-container"><span class="ip-input-header">보조 DNS</span>
+        <input type="text" class="ip-input-item" value="">
+        <i class="ip-input-dot">.</i>
+        <input type="text" class="ip-input-item" value="">
+        <i class="ip-input-dot">.</i>
+        <input type="text" class="ip-input-item" value="">
+        <i class="ip-input-dot">.</i>
+        <input type="text" class="ip-input-item" value="">
+      </div>    
+    </div>
+    <div>
+      <h3>하드웨어 주소 설정</h3>
+      <div class="mac-container"><span class="mac-header">현재 하드웨어 주소</span><span class="mac-header" id="cur-mac-addr">11:22:33:44:55:66</span>
+      </div>
+      <div class="mac-container"><span class="mac-header">하드웨어 주소</span>
+        <input type="text" class="mac-input-item" value="">
+        <i class="ip-input-dot">:</i>
+        <input type="text" class="mac-input-item" value="">
+        <i class="ip-input-dot">:</i>
+        <input type="text" class="mac-input-item" value="">
+        <i class="ip-input-dot">:</i>
+        <input type="text" class="mac-input-item" value="">
+        <i class="ip-input-dot">:</i>
+        <input type="text" class="mac-input-item" value="">
+        <i class="ip-input-dot">:</i>
+        <input type="text" class="mac-input-item" value="">
+        <button type="button" id="mac-clone">MAC Clone</button>
+      </div>           
+      <div class="mac-container"><span class="mac-header">하드웨어 주소 사용</span>
+        <label><input type="radio" name="mac-value-type" value="user-mac">사용자 입력값 사용</label>
+        <label><input type="radio" name="mac-value-type" value="equip-mac">장치 초기값 사용</label>  
+      </div>
+    </div>
+  </div>
+  <div id="bottom">
+    <div>
+      <button type="button" id="apply">적용</button>
+      <button type="button" id="cancel">취소</button>
+    </div>
+  </div>
+  <hr>
+</body>
+</html>

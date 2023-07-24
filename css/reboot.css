@@ -1,0 +1,27 @@
+body {
+  margin: 20px;
+  border-style: border-box;
+  /* border: 3px solid #444849; */
+  width: 824px;
+  height: 615px;
+}
+
+#bottom {
+  margin: 300px 0 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#reboot, #cancel {
+  margin: 0 10px;
+  width: 100px;
+  height: 50px;
+  font-size: 1.2em;
+  background-color: #fff;
+  color: #000;
+}
+
+input[type='radio']{
+  margin: 0 20px;
+}

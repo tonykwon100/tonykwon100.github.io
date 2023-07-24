@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/lan_setup.css">
+</head>
+<body>
+  <div id="header">
+  </div>
+  <hr>
+  <div id="content">
+    <div>
+      <h3>내부 네트워크 설정</h3>
+      <div class="ip-input-container"><span class="ip-input-header">IP주소</span>
+        <input type="text" class="ip-input-item" value="">
+        <i class="ip-input-dot">.</i>
+        <input type="text" class="ip-input-item" value="">
+        <i class="ip-input-dot">.</i>
+        <input type="text" class="ip-input-item" value="">
+        <i class="ip-input-dot">.</i>
+        <input type="text" class="ip-input-item" value="">
+      </div>    
+      <div class="ip-input-container"><span class="ip-input-header">서브넷 마스크</span>
+        <input type="text" class="ip-input-item" value="">
+        <i class="ip-input-dot">.</i>
+        <input type="text" class="ip-input-item" value="">
+        <i class="ip-input-dot">.</i>
+        <input type="text" class="ip-input-item" value="">
+        <i class="ip-input-dot">.</i>
+        <input type="text" class="ip-input-item" value="">
+      </div>    
+      <div class="mac-container"><span class="mac-header">DHCP 사용여부</span>
+        <label><input type="radio" name="dhcp-use" value="no">사용하지 않음</label>
+        <label><input type="radio" name="dhcp-use" value="yes">사용</label>  
+      </div>
+      <div class="ip-input-container"><span class="ip-input-header">DHCP 주소</span>
+        <span class="ip-input-header2">192.168.1.</span>
+        <input type="text" class="ip-input-item" value="">
+        <i class="ip-input-dot">~</i>
+        <span class="ip-input-header2">192.168.1.</span>
+        <input type="text" class="ip-input-item" value="">
+      </div>
+    </div>
+  </div>
+  <div id="bottom">
+    <div>
+      <button type="button" id="apply">적용</button>
+      <button type="button" id="cancel">취소</button>
+    </div>
+  </div>
+  <hr>
+</body>
+</html>

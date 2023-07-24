@@ -1,0 +1,86 @@
+
+body {
+  display:flex;
+  width: 1044px;
+  height: 788px;
+  padding: 10px;
+  flex-direction: row;
+  border: 1px solid red;
+  /* border-style:none; */
+}
+
+.navi {
+  width: 200px;
+  border: 1px solid #333625;
+  padding: 10px 0 10px 0;
+  border-style:none;
+}
+
+.content {
+  border: 1px solid #333625;
+}
+
+/* embed {
+  width: 844;
+  height: 768;
+  border-style:none;
+} */
+
+li {
+  width: 180px;
+  text-align: center;
+  font-size: 1.1em;
+  /* border: 1px solid red; */
+}
+
+.lmenu:hover {
+  cursor: pointer;
+}
+
+/* .clicked {
+  background-color:cornflowerblue;
+} */
+
+/* .navi li:hover, .navi li:focus {
+  background-color:cornflowerblue;
+}
+
+.navi a:hover,  .navi a:focus {
+  background-color:cornflowerblue;
+} */
+
+
+/* .container {
+  width: 1024px;
+  height: 768px;
+  margin : 0 auto;
+  border: 1px solid red;
+} */
+
+
+/* 
+.navi ul{
+  list-style: none;
+  padding-top:10px; 
+  padding-bottom:5px;
+  position: relative;
+}
+.navi ul li {
+  float:left;
+  width:150px;
+  padding:10px;   
+}
+.navi a:link, .navi a:visited{
+  font-size:1.3em;
+  color:#fff;
+  padding: 10px; 
+  text-decoration: none;
+  text-align: center;
+}
+.navi a:hover,  .navi a:focus {
+  background-color:#f00;
+  color:#fff;
+}
+.navi a:active {
+  background-color:#f00;
+} */

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/sw_update.css">
+</head>
+<body>
+  <div class="wrap">
+ 
+    <div class="header">
+    </div><!-- .header -->
+    
+    <hr>
+    <div class="sidebar">
+      <ul>
+        <li>소프트웨어 업데이트</li>
+      </ul>
+    </div><!-- .sidebar -->
+     
+    <div class="content">
+      <p><button type="button" id="open">파일선택</button>
+      <input type="text" id="file-input-item" value="선택된 파일 없음">
+      <button type="button" id="update-start">업데이트 시작</button></p>
+    </div><!-- .content -->
+    
+    <div class="clear"></div>
+       
+    <div class="footer">
+      <progress id="progressbar" value="0" max="100"></progress>
+    </div><!-- .footer -->
+  </div><!-- .wrap -->
+
+  <script src="js/sw_update.js">alert('in html1');</script>
+
+</body>
+</html>

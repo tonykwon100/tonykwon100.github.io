@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/port_forward.css">
+</head>
+<body>
+  <div class="wrap">
+ 
+    <div class="header">
+    </div><!-- .header -->
+ 
+    <div class="sidebar">
+      <ul>
+        <li>프로토콜</li>
+        <li>외부포트</li>
+        <li>내부 IP주소</li>
+        <li>내부포트</li>
+      </ul>
+    </div><!-- .sidebar -->
+     
+    <div class="content">
+      <form>
+        <select name="protocol" >
+          <option value="tcp">TCP</option>
+          <option value="udp">UDP</option>
+          <option value="all">ALL</option>
+        </select>
+      </form>
+      <input type="text" class="port-input-item" value="">
+      <i class="port-input-wave">~</i>
+      <input type="text" class="port-input-item" value="">
+      <label class="port-input-header">192.168.1.<input type="text" class="port-input-item" value=""></label>    
+      <input type="text" class="port-input-item" value="">
+      <i class="port-input-wave">~</i>
+      <input type="text" class="port-input-item" value="">
+      <button type="button" id="append">추가</button>        
+    </div><!-- .content -->
+    
+    <div class="clear"></div>
+    
+    <div id="item-table">
+      <p style="padding-left: 26px;">*최대 입력값은 48개 입니다.</p>
+      <hr>
+      <!-- <object> -->
+        <!-- <embed src="internet_connect_info.html" width="1150" height="800"></embed> -->
+        <object id="embed-page" src="" width="800" height="300"></object>
+      <!-- </object> -->
+    </div>
+    
+    <div class="footer">
+        <button type="button" id="apply">적용</button>
+        <button type="button" id="delete">삭제</button>
+    </div><!-- .footer -->
+  </div><!-- .wrap -->
+
+  <script src="js/port_forward.js">alert('in html1');</script>
+
+</body>
+</html>
